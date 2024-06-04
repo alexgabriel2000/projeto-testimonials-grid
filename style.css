@@ -1,0 +1,144 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+* {
+    font-size: 13px;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ECF2F7;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 19% 19% 20% 15%;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    "grid01 grid01 grid02 grid03"
+    "row01 row02 row02 grid03";
+    justify-content: center;
+    align-content: center;
+    gap: 1.5em;
+    width: 100%;
+}
+
+/* PRIMEIRA SEÇÃO */
+
+.first__testimony {
+    grid-area: grid01;
+    background-color: hsl(263, 55%, 52%);
+    padding: 1.5em 2.5em 1.5em 2.5em;
+    border-radius: 8px;
+}
+
+.first__testimony .first__user {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.first__testimony .first__user img {
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.527);
+}
+
+.first__testimony .first__user div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.first__testimony-name, .second__testimony-name {
+    color: hsl(210, 46%, 95%);
+}
+
+.first__testimony-graduate, .second__testimony-graduate {
+    color: hsl(0, 0%, 81%);
+}
+
+.first-paragraph01 {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 600;
+    padding: 1em 0;
+    text-align: justify;
+    line-height: 1.3em;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.089);
+    word-wrap: wrap;
+}
+
+.first-paragraph02 {
+    color: hsl(0, 0%, 81%);
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+/* SEGUNDA SEÇÃO */
+
+.second__testimony {
+    grid-area: grid02;
+    background-color: hsl(217, 19%, 35%);
+    padding: 1.5em 2em 1.5em 2em;
+    border-radius: 8px;
+}
+
+.second__testimony .second__user {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.second__testimony .second__user img {
+    border-radius: 50%;
+}
+
+.second__testimony .second__user div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.second-paragraph01 {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 600;
+    padding: 1em 0;
+    line-height: 1.3em;
+}
+
+.second-paragraph02 {
+    color: hsl(0, 0%, 81%);
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+
+
+/* TERCEIRA SEÇÃO */
+
+.third__testimony {
+    grid-area: row01;
+    background-color: hsl(0, 0%, 100%);
+}
+
+
+/* Quarta SEÇÃO */
+
+.fourth__testimony {
+    grid-area: row02;
+    background-color: hsl(219, 29%, 14%);
+}
+
+
+/* QUINTA SEÇÃO */
+
+.fifth__testimony {
+    grid-area: grid03;
+    background-color: hsl(0, 0%, 100%);
+}
