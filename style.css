@@ -17,7 +17,7 @@ body {
 
 .main-content {
     display: grid;
-    grid-template-columns: 19% 19% 20% 15%;
+    grid-template-columns: 19% 19% 20% 17%;
     grid-template-rows: auto auto;
     grid-template-areas: 
     "grid01 grid01 grid02 grid03"
@@ -40,7 +40,7 @@ body {
 .first__testimony .first__user {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 16px;
 }
 
 .first__testimony .first__user img {
@@ -51,7 +51,7 @@ body {
 .first__testimony .first__user div {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 3px;
 }
 
 .first__testimony-name, .second__testimony-name {
@@ -61,20 +61,21 @@ body {
 
 .first__testimony-graduate, .second__testimony-graduate {
     color: hsl(0, 0%, 81%);
+    font-size: 12px;
 }
 
 .first-paragraph01 {
     color: white;
     font-size: 1.5em;
     font-weight: 600;
-    padding: 0.8em 0;
+    padding: 0.5em 0;
     text-align: justify;
-    line-height: 1.3em;
+    line-height: 1.2em;
 }
 
 .first-paragraph02 {
     color: hsl(0, 0%, 81%);
-    line-height: 1.5em;
+    line-height: 1.2em;
     text-align: justify;
 }
 
@@ -90,7 +91,7 @@ body {
 .second__testimony .second__user {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 16px;
 }
 
 .second__testimony .second__user img {
@@ -101,20 +102,20 @@ body {
 .second__testimony .second__user div {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 3px;
 }
 
 .second-paragraph01 {
     color: white;
     font-size: 1.5em;
     font-weight: 600;
-    padding: 0.8em 0;
-    line-height: 1.3em;
+    padding: 0.5em 0;
+    line-height: 1.2em;
 }
 
 .second-paragraph02 {
     color: hsl(0, 0%, 81%);
-    line-height: 1.5em;
+    line-height: 1.2em;
     text-align: justify;
 }
 
@@ -123,14 +124,14 @@ body {
 .third__testimony {
     grid-area: row01;
     background-color: hsl(0, 0%, 100%);
-    padding: 1.5em 3em;
+    padding: 1.5em 2em;
     border-radius: 8px;
 }
 
 .third__testimony .third__user {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 16px;
 }
 
 .third__testimony .third__user img {
@@ -141,7 +142,7 @@ body {
 .third__testimony .third__user div {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 3px;
 }
 
 .third__testimony-name {
@@ -151,19 +152,20 @@ body {
 
 .third__testimony-graduate {
     color: hsl(0, 0%, 65%);
+    font-size: 12px;
 }
 
 .third-paragraph01 {
     color: hsl(217, 19%, 35%);
     font-size: 1.5em;
     font-weight: 600;
-    padding: 0.8em 0;
+    padding: 0.5em 0;
     line-height: 1.2em;
 }
 
 .third-paragraph02 {
     color: hsl(0, 0%, 27%);
-    line-height: 1.5em;
+    line-height: 1.2em;
 }
 
 /* Quarta SEÇÃO */
@@ -171,6 +173,50 @@ body {
 .fourth__testimony {
     grid-area: row02;
     background-color: hsl(219, 29%, 14%);
+    border-radius: 8px;
+    padding: 1.5em 2em;
+}
+
+.fourth__testimony .fourth__user {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.fourth__testimony .fourth__user img {
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.527);
+}
+
+.fourth__testimony .fourth__user div {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.fourth__testimony-name {
+    font-weight: 500;
+    color: hsl(210, 46%, 95%);
+}
+
+.fourth__testimony-graduate {
+    color: hsl(0, 0%, 81%);
+    font-size: 12px;
+}
+
+.fourth-paragraph01 {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 600;
+    padding: 0.5em 0;
+    text-align: justify;
+    line-height: 1.2em;
+}
+
+.fourth-paragraph02 {
+    color: hsl(0, 0%, 81%);
+    line-height: 1.2em;
+    text-align: justify;
 }
 
 /* QUINTA SEÇÃO */
@@ -178,4 +224,58 @@ body {
 .fifth__testimony {
     grid-area: grid03;
     background-color: hsl(0, 0%, 100%);
+    padding: 1.5em 2em;
+    border-radius: 8px;
+}
+
+.fifth__testimony .fifth__user {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.fifth__testimony .fifth__user img {
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.527);
+}
+
+.fifth__testimony .fifth__user div {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.fifth__testimony-name {
+    font-weight: 500;
+    color: hsl(217, 19%, 35%);
+}
+
+.fifth__testimony-graduate {
+    color: hsl(0, 0%, 65%);
+    font-size: 12px;
+}
+
+.fifth-paragraph01 {
+    color: hsl(217, 19%, 35%);
+    font-size: 1.5em;
+    font-weight: 600;
+    padding: 0.5em 0;
+    line-height: 1.2em;
+}
+
+.fifth-paragraph02 {
+    color: hsl(0, 0%, 27%);
+    line-height: 1.2em;
+}
+
+/* RODAPÉ */
+
+.rodape .attribution {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: hsl(217, 30%, 14%);
+    color: white;
+    padding: 5px;
 }
